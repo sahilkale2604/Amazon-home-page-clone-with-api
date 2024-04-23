@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<style>
+   .logo{
+       padding: 12px;
+       border: 1px;
+       display: flex;
+       height: 60px;
+       background-color: rgba(0,0,0,255);
+       color: white;
+       margin: -9px;
+       width: 1500px;
+   }
+   .searchbar{
+       display: flex;
+       position: relative;
+       top: -53px;
+       left: 318px;
+  
+       height: 38px;   
+   }
+   .secondbar{
+      background-color: rgba(35,47,62,255);
+      height: 40px;
+      margin-left: -11px;
+      align-items: center;
+      display: flex;
+      position: relative;
+      top: -31px;
+      width: 1525px;
+   }
+   .container{
+       height: 800px;
+       position: relative;
+       top: -62px;
+       left: -207px;
+      
+   }
+   nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   }
+   nav ul a{
+    color: white;
+    padding: 0 23px;
+    text-decoration: none;
+     
+   }
+   nav ul li a :hover{
+    font-style: bold;
+    color: rgb(9, 154, 238);
+
+   }
+   footer{
+    display: flex;
+    flex-flow: row;
+    background-color:rgba(35,47,62,255) ;
+    width: 1600px;
+    margin-left: 187px;
+    height: 230px;
+    position: relative;
+    top: 98px;
+   
+   }
+   .A{
+    display: flex;
+    flex-flow: column;
+    margin-left: -2px;
+    
+    text-decoration: none;
+    position: relative;
+    left: 100px;
+
+   }
+   .A:hover{
+    font-style: bold;
+    color: rgb(9, 154, 238);
+   }
+   .B{
+    display: flex;
+    flex-flow: column;
+    margin-left: -2px;
+
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+   }
+   .B:hover{
+    font-style: bold;
+    color: rgb(9, 154, 238);
+   }
+   .c{
+    display: flex;
+    flex-flow: column;
+    margin-left: -2px;
+
+    text-decoration: none;
+    position: relative;
+    left: 315px;
+   }
+   .c:hover{
+    font-style: bold;
+    color: rgb(9, 154, 238);
+   }
+   .D{
+    display: flex;
+    flex-flow: column;
+    margin-left: -2px;
+
+    text-decoration: none;
+    position: relative;
+    left: 100px;
+   }
+   .D:hover{
+    font-style: bold;
+    color: rgb(9, 154, 238);
+   }
+   .E{
+    display: flex;
+    flex-flow: column;
+    margin-left: -2px;
+
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+   }
+   .E:hover{
+    font-style: bold;
+    color: rgb(9, 154, 238);
+   }
+   .F{
+    display: flex;
+    flex-flow: column;
+    margin-left: -2px;
+
+    text-decoration: none;
+    position: relative;
+    left: 300px;
+   }
+   .F:hover{
+    font-style: bold;
+    color: rgb(9, 154, 238);
+   }
+   .slider{
+    position: relative;
+    top: 31px;
+    left: 195px;
+   }
+   .box{
+    color: black;
+    display:flex;
+    flex-flow: row;
+    position: relative;
+    top: 0px;
+    left: 65px;
+
+   }
+   .FASHIONFORYOU{
+    position: relative;
+    left: 63px;
+    font-size: 30px;
+
+   }
+   .SPORTS{
+    position: relative;
+    left: 63px;
+    font-size: 30px;
+   }
+   .boxsecond{
+    color: black;
+    display:flex;
+    flex-flow: row;
+    position: relative;
+    top: 0px;
+    left: 65px;
+   }
+   .LUXURY{
+    position: relative;
+    left: 63px;
+    font-size: 30px;
+   }
+   .boxthird{
+    color: black;
+    display:flex;
+    flex-flow: row;
+    position: relative;
+    top: 0px;
+    left: 65px;
+   }
+   .JEWELLERY{
+    position: relative;
+    left: 63px;
+    font-size: 30px;
+   }
+   .boxfourth{
+    color: black;
+    display:flex;
+    flex-flow: row;
+    position: relative;
+    top: 0px;
+    left: 65px;
+   }
+   .technology{
+    position: relative;
+    left: 63px;
+    font-size: 30px;
+   }
+   .boxfive{
+    color: black;
+    display:flex;
+    flex-flow: row;
+    position: relative;
+    top: 0px;
+    left: 65px;
+   }
+   .indorplants{
+    position: relative;
+    left: 63px;
+    font-size: 30px;
+   }
+   .boxsix{
+    color: black;
+    display:flex;
+    flex-flow: row;
+    position: relative;
+    top: 0px;
+    left: 65px;
+   }
+   .glimpses{
+    position: relative;
+    left: 63px;
+    font-size: 30px;
+   }
+   .samplevideo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+   }
+   .booking{
+    position: relative;
+    left: 63px;
+    font-size: 30px;
+   }
+   .boxseven{
+    color: black;
+    display:flex;
+    flex-flow: row;
+    position: relative;
+    top: 0px;
+    left: 65px;
+   }
+   .youtube{
+    width: 50px;
+    position: relative;
+    display: flex;
+    
+    top: -3px;
+    left: 633px;
+   }
+
+</style>
+<body>
+   <div class="logo">
+       <img src="logo.png" alt="">
+   </div>
+   <div class="searchbar">
+       <input type="text"  placeholder="Search items" id="" style="width: 700px;">
+       <input type="button"  value="SEARCH" style height="37px" width="37px">
+   </div>
+   <div class="secondbar">
+    <nav>
+        <ul>
+            <a href="Google.html" >Home</a>
+            <a href="Contact.html">Contact</a>
+            <a href="About.html" >About</a>
+        </ul>
+    </nav>
+   </div>
+   <div class="container">
+     <div class="slider">
+         <img src="https://source.unsplash.com/random?shopping" width="1526px" height="500px" alt="">
+         <div class="FASHIONFORYOU">
+         <h3>FASHION FOR YOU</h3>
+        </div>
+         <div class="box"> 
+         <h3 style="position: relative;top: 22px;left: 25px;"></h3>  
+         <img src="https://source.unsplash.com/random?fashion,shirt" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+         <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+         <img src="https://source.unsplash.com/random?fashion,jeans" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+         <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+         <img src="https://source.unsplash.com/random?fashion,watches" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+         <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+         <img src="https://source.unsplash.com/random?fashion,sunglass" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+         <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+         <img src="https://source.unsplash.com/random?fashion,suits" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+        </div>
+        <div class="SPORTS">
+            <h3>SPORTZZ</h3>
+        </div>
+        <div class="boxsecond">
+            <h3 style="position: relative;top: 22px;left: 25px;"></h3>  
+         <img src="https://source.unsplash.com/random?sports,football" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+         <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+         <img src="https://source.unsplash.com/random?sports,skates" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+         <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+         <img src="https://source.unsplash.com/random?sports,tennis" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+         <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+         <img src="https://source.unsplash.com/random?sports,badminton" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+         <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+         <img src="https://source.unsplash.com/random?Sports,basketball" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+        </div>
+        <div class="LUXURY">
+            <h3>LUXURY</h3>
+        </div>
+        <div class="boxthird">
+            <h3 style="position: relative;top: 22px;left: 25px;"></h3>  
+            <img src="https://source.unsplash.com/random?LUXURY,GUCCI" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?LUXURY,ROLLEX" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?LUXURY,DIOR" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?LUXURY,CHANNEL" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?LUXURY,PRADA" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+        </div>
+        <div class="JEWELLERY">
+            <h3>JEWELLERY</h3>
+        </div>
+        <div class="boxfourth">
+            <h3 style="position: relative;top: 22px;left: 25px;"></h3>  
+            <img src="https://source.unsplash.com/random?JEWELLERY,ruby" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?JEWELLERY,silver" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?JEWELLERY,gold" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?JEWELLERY,platinum" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?JEWELLERY,diamond" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+        </div>
+        <div class="technology">
+            <h3>TECHNOLOGY</h3>
+        </div>
+        <div class="boxfive">
+            <h3 style="position: relative;top: 22px;left: 25px;"></h3>  
+            <img src="https://source.unsplash.com/random?technology,mobile" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?technology,telivision" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?technology,refrigirator" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?technology,microwave" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?technology,computer" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+        </div>
+        <div class="indorplants">
+            <h3>INDOOR PLANTS</h3>
+        </div>
+        <div class="boxsix">
+            <h3 style="position: relative;top: 22px;left: 25px;"></h3>  
+            <img src="https://source.unsplash.com/random?indoorplant,aloevera" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?indoorplant,moneytree" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?indoorplant,ferns" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?indoorplant,pothos" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?indoorplant,spiderplant" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+
+        </div>
+        <div class="glimpses">
+            <h3>GLIMPSES OF INDIA</h3>
+        </div>
+        <div class="samplevideo">
+            <iframe width="560" height="315"  src="https://www.youtube.com/embed/35npVaFGHMY?si=24R9O7ow1epC3RCR&autoplay=1&mute=1&controls&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="booking">
+            <h3>PLAN YOUR HOLIDAYS WITH US</h3>
+        </div>
+        <div class="boxseven">
+            <h3 style="position: relative;top: 22px;left: 25px;"></h3>  
+            <img src="https://source.unsplash.com/random?airplane" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?hotel" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?bus" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?cruise" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+            <h3 style="position: relative;top: 22px;left: 25px;">   </h3>  
+            <img src="https://source.unsplash.com/random?trains" style="width: 234px; height: 264px; margin: 24px;position: relative;top: -10px;" alt="">
+
+        </div>
+   </div>
+</body>
+<footer>
+    <div class="A">
+         <h3><a href="Home.html" style="color: white;text-decoration: none;">Get to know us</a></h3>
+         <h4><a href="About.html" style="color: white;text-decoration: none;position: relative;top: -19px;left: -1px;">About us </a></h4>
+         <h4><a href="carrer.html"style="color: white;text-decoration: none;position: relative;top: -41px;left: -1px;">Career</a></h4>
+    </div>
+    <div class="B">
+         <h3><a href="Home.html" style="color: white;text-decoration: none;">Get to know us</a></h3>
+         <h4><a href="About.html" style="color: white;text-decoration: none;position: relative;top: -18px;left: 1px;">About us </a></h4>
+         <h4><a href="carrer.html"style="color: white;text-decoration: none;position: relative;top: -40px;left: 0px; ">Career</a></h4>   
+
+    </div>
+    <div class="C">
+         <h3><a href="Home.html" style="color: white;text-decoration: none;position: relative;left: 315px;">Get to know us</a></h3>
+         <h4><a href="About.html" style="color: white;text-decoration: none;position: relative;left: 315px;">About us </a></h4>
+         <h4><a href="carrer.html"style="color: white;text-decoration: none;position: relative;left: 315px;">Career</a></h4>
+    </div>
+    <div class="D">
+         <h3><a href="Home.html" style="color: white;text-decoration: none;position: relative;left: 315px;">Get to know us</a></h3>
+         <h4><a href="About.html" style="color: white;text-decoration: none;position: relative;left: 315px;top: -18px;">About us </a></h4>
+         <h4><a href="carrer.html"style="color: white;text-decoration: none;position: relative;left: 315px;top:-40px ;">Career</a></h4>
+    </div>
+    <div class="E">
+        <h3><a href="Home.html" style="color: white;text-decoration: none;position: relative;left: 315px;">Get to know us</a></h3>
+        <h4><a href="About.html" style="color: white;text-decoration: none;position: relative;left: 315px;top: -18px;">About us </a></h4>
+        <h4><a href="carrer.html"style="color: white;text-decoration: none;position: relative;left: 315px;top:-40px ;">Career</a></h4>
+   </div>
+   <div class="F">
+    <h3><a href="Home.html" style="color: white;text-decoration: none;position: relative;left: 315px;">Get to know us</a></h3>
+    <h4><a href="About.html" style="color: white;text-decoration: none;position: relative;left: 315px;top: -18px;">About us </a></h4>
+    <h4><a href="carrer.html"style="color: white;text-decoration: none;position: relative;left: 315px;top:-40px ;">Career</a></h4>
+  </div>
+  <div class="youtube" >
+    <a href="https://www.youtube.com/channel/UC59U2IfgQyQQZ4vMoJ1NV9w"><img src="youtubelogo.png" style="width: 50px;position: relative;top: 7px;" alt=""></a>
+
+  </div>
+
+</footer>
+</html>
